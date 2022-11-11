@@ -22,7 +22,7 @@ public class LoginPage{
 	private By forgottenPasswordLnk=By.xpath("//input[@id='input-password']/following-sibling::a");
 	private By registerLnk=By.xpath("//aside[@id='column-right']//child::a[text()='Register']");
 	private By loginErrorMsg=By.cssSelector("div.alert.alert-danger.alert-dismissible");
-	private By logout=By.linkText("logout");
+	private By logout=By.linkText("Logout");
 	
 	
 	
